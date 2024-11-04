@@ -16,7 +16,11 @@
                 $url = explode('/', $url);
                 array_shift($url);
 
-                var_dump($url);
+                // var_dump($url);
+
+                $controllerAtual = ucfirst($url[0]) . 'Controller';
+
+                var_dump($controllerAtual);
             }
         }
     }
