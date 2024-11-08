@@ -5,7 +5,7 @@
 
     define("DB_HOST", "localhost");
     define("DB_NAME", "db_innovaclick");
-    define("DB_USER", "rost");
+    define("DB_USER", "root");
     define('DB_PASS', '*******');
 
     spl_autoload_register(function($classe){
